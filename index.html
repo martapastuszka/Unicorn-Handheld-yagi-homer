@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BalloonTracker</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+crossorigin=""/>
+
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+crossorigin="">
+</script>
+    
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <!-- <img src="image/unicorn.jpg" alt="unicorn"> -->
+            <h1>Jednorożec</h1>
+           
+        </header>
+        <main>
+            <section>
+                <input type="text" class='location-input' required placeholder="wpisz lokalizację"> 
+                <button class="btn-find">Znajdź</button>
+            </section>
+
+            <section id='balloon-list'>
+                <p>BalloonList</p>
+                
+            </section>
+
+            <section id='map-container'>
+                 <div id="mapid"></div>           
+            </section>
+      
+           
+        </main>
+     
+
+    </div>
+    <script src="main.js"></script> 
+
+</body>
+</html>

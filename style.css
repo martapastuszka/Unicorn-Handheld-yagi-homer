@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+header{
+    background-color:#7e7e7e;
+    min-height: 150px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+    font-weight: 400;   
+    margin-top: 40px; 
+}
+
+img{
+    margin-left: 2rem;
+    
+  
+}
+
+h1{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.location-input{
+    margin-top: 50px;
+    margin-left: 30%;
+    width: 30%;
+    height: 50px;
+    font-size:2rem;
+}
+
+.btn-find{
+    margin-top: 50px;
+    width: 10%;
+    height: 50px;
+    font-size: 2rem;
+    border-radius:1px;
+}
+
+#mapid{
+    height: 1080px; 
+    width: 63Vw;
+    /* margin: auto; */
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+#balloon-list{
+    height: 1080px;
+    min-height: 500px;
+    background-color:aquamarine;
+    width: 30vw; 
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+   
+
+}
+/* #map-container{
+    min-height: 1080px;
+} */
