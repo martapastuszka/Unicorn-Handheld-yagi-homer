@@ -1,3 +1,5 @@
+//leaflet operations
+
 var mymap = L.map('mapid').setView([51.753897, 19.538668], 13);
 
 var marker = L.marker([51.753897, 19.538668]).addTo(mymap);
@@ -46,11 +48,18 @@ let balloon = [
     },
 
 ]
-console.log(balloon[0].id);
+console.log(balloon[1].id);
 
 // document.querySelector('wrapper');
 // let balloonList = document.createElement('div')
 // balloonList.textContent = `${balloon[0].id}, ${balloon[0].lat}, ${balloon[0].long}`;
 // wrapper.appendChild(balloonList);
 
+//"find" button operations
 
+let findButton = document.querySelector(".btn-find")
+let testMsg = document.querySelector('#message')
+
+findButton.addEventListener('click', ()=>{
+    testMsg.classList.toggle('reveal');
+  })

@@ -20,10 +20,22 @@ header{
     margin-top: 40px; 
 }
 
+#message{
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+.hide{
+    visibility: hidden;
+  }
+  
+.reveal{
+    visibility: visible;
+  }
+
 img{
     margin-left: 2rem;
-    
-  
 }
 
 h1{
@@ -47,6 +59,10 @@ h1{
     font-size: 2rem;
     border-radius:1px;
 }
+
+.btn-find:hover{
+    background: #DFF30B;
+  }
 
 #mapid{
     height: 1080px; 

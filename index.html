@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
-integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-crossorigin=""/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
 
-<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
-integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin="">
 </script>
     
 </head>
@@ -23,15 +23,17 @@ crossorigin="">
     <div id="wrapper">
         <header>
             <!-- <img src="image/unicorn.jpg" alt="unicorn"> -->
-            <h1>Jednorożec</h1>
+            <h1>Unicorn - Handled Yagi Homer</h1>
            
         </header>
         <main>
             <section>
-                <input type="text" class='location-input' required placeholder="wpisz lokalizację"> 
-                <button class="btn-find">Znajdź</button>
+                <input type="text" class='location-input' required placeholder="Give a location"> 
+                <button class="btn-find">Find</button>
+                <div id='message' class="hide">
+                    Find button works
+                </div>
             </section>
-
             <section id='balloon-list'>
                 <p>BalloonList</p>
                 
